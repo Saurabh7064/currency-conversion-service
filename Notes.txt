@@ -1,0 +1,5 @@
+How to call microservices
+Rest template example watch 146. step 17
+
+Access this app using http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+make sure other currency exchange service is up..
