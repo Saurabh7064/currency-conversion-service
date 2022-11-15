@@ -3,3 +3,7 @@ Rest template example watch 146. step 17
 
 Access this app using http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 make sure other currency exchange service is up..
+
+
+feign is kind of replacement of rest template basically to communicate with 100 microservices as we have
+to repeat the code
