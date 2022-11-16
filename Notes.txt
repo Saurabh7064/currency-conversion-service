@@ -12,3 +12,6 @@ Feign also help us to do loadbalancing
 
 problem with current architencture is feign only handles right now port 8000,
 if a 800 service goes down it won't be working so to avoid that we have Naming Server or service registry
+
+If you refresh the page http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+you will see it's picking different url everytime 8000 and 8001
